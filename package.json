@@ -1,0 +1,13 @@
+{
+  "name": "roadaid-workspace",
+  "version": "1.0.0",
+  "description": "RoadAid - On-Road Mechanic Assistance Fullstack System",
+  "private": true,
+  "scripts": {
+    "dev": "node start-all.js",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "build": "npm run build --prefix frontend",
+    "install:all": "npm install --prefix frontend && npm install --prefix backend"
+  }
+}
